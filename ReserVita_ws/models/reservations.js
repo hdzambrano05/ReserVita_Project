@@ -100,7 +100,12 @@ module.exports = sequelize => {
   const options = {
     tableName: "reservations",
     comment: "",
-    indexes: []
+    indexes: [],
+    timestamps: false,
+    underscored: true,
+    freezeTableName: true,
+    schema: 'public'
+
   };
   const ReservationsModel = sequelize.define("reservations_model", attributes, options);
   return ReservationsModel;

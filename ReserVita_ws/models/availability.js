@@ -87,7 +87,12 @@ module.exports = sequelize => {
   const options = {
     tableName: "availability",
     comment: "",
-    indexes: []
+    indexes: [],
+    timestamps: false,
+    underscored: true,
+    freezeTableName: true,
+    schema: 'public'
+
   };
   const AvailabilityModel = sequelize.define("availability_model", attributes, options);
   return AvailabilityModel;
