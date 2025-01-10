@@ -1,7 +1,7 @@
 {
   "development": {
   "username": "postgres",
-  "password": "Apixelados",
+  "password": "1004232350",
   "database": "ReserVita",
   "host": "localhost",
   "dialect": "postgres",
@@ -9,7 +9,7 @@
   },
   "test": {
   "username": "postgres ",
-  "password": "Apixelados",
+  "password": "1004232350",
   "database": "ReserVita",
   "host": "localhost",
   "dialect": "postgres",
@@ -17,7 +17,7 @@
   },
   "production": {
   "username": "postgres ",
-  "password": "Apixelados",
+  "password": "1004232350",
   "database": "ReserVita",
   "host": "localhost",
   "dialect": "postgres",
